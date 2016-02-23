@@ -7,8 +7,8 @@ module RecurringSelect
       ActionView::Helpers::FormBuilder.send(:include, RecurringSelectHelper::FormBuilder)
     end
 
-    initializer 'recurring_select.connecting_middleware' do |app|
-      app.middleware.use RecurringSelectMiddleware # insert_after ActionDispatch::ParamsParser,
-    end
+    # initializer "recurring_select.connecting_middleware" do |app|
+    #   app.middleware.use RecurringSelectMiddleware # insert_after ActionDispatch::ParamsParser,
+    # end
   end
 end

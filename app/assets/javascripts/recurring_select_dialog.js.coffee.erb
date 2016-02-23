@@ -161,7 +161,8 @@ window.RecurringSelectDialog =
         @summary.addClass "fetching"
         @save_button.addClass("disabled")
         @summary.find("span").html ""
-        @summaryFetch()
+        @current_rule.str = 'Custom'
+        @summaryUpdate()
 
     summaryFetch: ->
       return if !(@current_rule.hash? && (rule_type = @current_rule.hash.rule_type)?)
