@@ -1,6 +1,3 @@
-//= require recurring_select_dialog
-//= require_self
-
 $ = jQuery
 $ ->
   $(document).on "focus", ".recurring_select", ->
