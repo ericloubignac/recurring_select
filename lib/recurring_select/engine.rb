@@ -1,5 +1,5 @@
 require "helpers/recurring_select_helper"
-require "middleware/recurring_select_middleware"
+# require "middleware/recurring_select_middleware"
 
 module RecurringSelect
   class Engine < Rails::Engine
