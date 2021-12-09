@@ -1,0 +1,11 @@
+{
+  "name": "recurring_select",
+  "version": "1.0.0",
+  "main": "app/assets/javascripts/recurring_select.js",
+  "repository": "git@github.com:Cyberwatch/recurring_select.git",
+  "author": "Cyberwatch <contact@cyberwatch.fr>",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}
